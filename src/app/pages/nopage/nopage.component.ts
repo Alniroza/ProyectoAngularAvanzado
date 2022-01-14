@@ -1,18 +1,18 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-nopage',
-  templateUrl: './nopage.component.html',
-  styleUrls: [ './nopage.component.css'
-  ]
+    selector: 'app-nopage',
+    templateUrl: './nopage.component.html',
+    styleUrls: ['./nopage.component.css'
+    ]
 })
 export class NopageComponent implements OnInit {
 
     year = new Date().getFullYear();
 
-  constructor() { }
+    constructor() { }
 
-  ngOnInit(): void {
-  }
+    ngOnInit(): void {
+    }
 
 }
